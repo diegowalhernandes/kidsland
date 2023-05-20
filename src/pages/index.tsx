@@ -1,7 +1,12 @@
-
+import { Navbar } from "../../components/Navbar";
+import Slide from "../../components/slide";
 
 export default function Home() {
   return (
-   <h1>Hello World</h1>
+    <>
+    <Navbar/>
+    <Slide/>
+     <div>Minha Pagina Inicial</div>
+    </>
   )
 }
